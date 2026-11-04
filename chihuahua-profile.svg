@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <!-- 배경 그라데이션 -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EEF2FF"/>
+      <stop offset="100%" stop-color="#E0E7FF"/>
+    </linearGradient>
+
+    <!-- 털 그라데이션 (부드러운 캐러멜/베이지) -->
+    <linearGradient id="furGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8B57D"/>
+      <stop offset="100%" stop-color="#D4995A"/>
+    </linearGradient>
+
+    <!-- 귀 안쪽 핑크 그라데이션 -->
+    <linearGradient id="earPink" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD1DC"/>
+      <stop offset="100%" stop-color="#FFAAA6"/>
+    </linearGradient>
+
+    <!-- 그림자 필터 -->
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#4F46E5" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- 원형 배경 -->
+  <circle cx="120" cy="120" r="112" fill="url(#bgGrad)" stroke="#C7D2FE" stroke-width="4"/>
+  <circle cx="120" cy="120" r="106" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+
+  <g filter="url(#softShadow)">
+    <!-- 귀 (왼쪽 귀 - 쫑긋하고 큰 치와와 특유의 귀) -->
+    <g>
+      <!-- 외측 귀 -->
+      <path d="M 85,115 C 60,95 24,55 42,28 C 58,8 88,48 102,95 Z" fill="url(#furGrad)" stroke="#C88E52" stroke-width="2"/>
+      <!-- 내측 귀 (핑크) -->
+      <path d="M 82,108 C 65,90 40,58 52,38 C 64,24 84,56 95,94 Z" fill="url(#earPink)" opacity="0.9"/>
+    </g>
+
+    <!-- 귀 (오른쪽 귀 - 쫑긋하고 큰 치와와 특유의 귀) -->
+    <g>
+      <!-- 외측 귀 -->
+      <path d="M 155,115 C 180,95 216,55 198,28 C 182,8 152,48 138,95 Z" fill="url(#furGrad)" stroke="#C88E52" stroke-width="2"/>
+      <!-- 내측 귀 (핑크) -->
+      <path d="M 158,108 C 175,90 200,58 188,38 C 176,24 156,56 145,94 Z" fill="url(#earPink)" opacity="0.9"/>
+    </g>
+
+    <!-- 몸통 / 목 -->
+    <path d="M 88,175 C 80,195 65,225 65,232 L 175,232 C 175,225 160,195 152,175 Z" fill="url(#furGrad)"/>
+    <!-- 가슴 하얀 털 포인트 -->
+    <path d="M 104,185 C 112,180 128,180 136,185 C 132,205 128,225 120,232 C 112,225 108,205 104,185 Z" fill="#FFF9F2"/>
+
+    <!-- 옷 / 카라 (귀여운 파스텔 블루 스카프 / 리본) -->
+    <path d="M 84,178 C 104,192 136,192 156,178 C 160,188 150,196 120,202 C 90,196 80,188 84,178 Z" fill="#6366F1"/>
+    <!-- 메달 / 방울 -->
+    <circle cx="120" cy="201" r="7" fill="#FBBF24" stroke="#D97706" stroke-width="1.5"/>
+    <circle cx="120" cy="201" r="2.5" fill="#FEF3C7"/>
+
+    <!-- 머리 (치와와 특유의 둥근 사과형 두상 Apple Head) -->
+    <ellipse cx="120" cy="125" rx="54" ry="48" fill="url(#furGrad)"/>
+
+    <!-- 이마 양쪽 볼살 약간 부드러운 라인 -->
+    <path d="M 72,135 C 68,148 76,160 90,165 C 102,170 138,170 150,165 C 164,160 172,148 168,135 C 174,115 168,90 120,88 C 72,90 66,115 72,135 Z" fill="url(#furGrad)"/>
+
+    <!-- 이마 중앙 흰색 줄무늬(Blaze) 포인트 -->
+    <path d="M 120,92 C 122,102 125,115 127,125 C 120,127 113,125 113,125 C 115,115 118,102 120,92 Z" fill="#FFF9F2" opacity="0.85"/>
+
+    <!-- 볼 터치 (수줍은 핑크) -->
+    <circle cx="82" cy="144" r="9" fill="#FB7185" opacity="0.3"/>
+    <circle cx="158" cy="144" r="9" fill="#FB7185" opacity="0.3"/>
+
+    <!-- 주둥이 / 머즐 (밝은 크림색) -->
+    <ellipse cx="120" cy="146" rx="24" ry="18" fill="#FFF9F2"/>
+
+    <!-- 코 (작고 앙증맞은 까만 코) -->
+    <path d="M 112,138 C 112,135 128,135 128,138 C 128,143 124,146 120,146 C 116,146 112,143 112,138 Z" fill="#261A15"/>
+    <!-- 코 하이라이트 -->
+    <ellipse cx="117" cy="138" rx="2" ry="1" fill="#FFFFFF" opacity="0.8"/>
+
+    <!-- 입 (귀여운 인중과 미소) -->
+    <path d="M 120,146 L 120,152" stroke="#4A3728" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 113,152 Q 120,157 127,152" fill="none" stroke="#4A3728" stroke-width="2" stroke-linecap="round"/>
+    <!-- 살짝 내민 작은 혀 -->
+    <path d="M 118,154 C 118,158 122,158 122,154 Z" fill="#F472B6"/>
+
+    <!-- 치와와 시그니처: 이마 눈썹 위 탄 포인트(밝은 크림색 점) -->
+    <ellipse cx="94" cy="104" rx="4.5" ry="3" fill="#FFF9F2" transform="rotate(-15 94 104)"/>
+    <ellipse cx="146" cy="104" rx="4.5" ry="3" fill="#FFF9F2" transform="rotate(15 146 104)"/>
+
+    <!-- 커다랗고 똘망똘망한 눈 (치와와의 핵심 특징!) -->
+    <!-- 왼쪽 눈 -->
+    <g>
+      <ellipse cx="96" cy="124" rx="13" ry="15" fill="#1E130D"/>
+      <ellipse cx="97" cy="124" rx="11" ry="13" fill="#3D2314"/>
+      <!-- 큰 반짝임 -->
+      <circle cx="92" cy="119" r="5" fill="#FFFFFF"/>
+      <!-- 작은 반짝임 -->
+      <circle cx="101" cy="128" r="2.5" fill="#FFFFFF"/>
+      <circle cx="94" cy="132" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+    </g>
+
+    <!-- 오른쪽 눈 -->
+    <g>
+      <ellipse cx="144" cy="124" rx="13" ry="15" fill="#1E130D"/>
+      <ellipse cx="143" cy="124" rx="11" ry="13" fill="#3D2314"/>
+      <!-- 큰 반짝임 -->
+      <circle cx="140" cy="119" r="5" fill="#FFFFFF"/>
+      <!-- 작은 반짝임 -->
+      <circle cx="149" cy="128" r="2.5" fill="#FFFFFF"/>
+      <circle cx="142" cy="132" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+    </g>
+
+    <!-- 머리 위 반짝이 효과 (귀여움 강조) -->
+    <path d="M 120,44 Q 122,50 128,52 Q 122,54 120,60 Q 118,54 112,52 Q 118,50 120,44 Z" fill="#FBBF24" opacity="0.9"/>
+    <circle cx="134" cy="46" r="2" fill="#FBBF24" opacity="0.8"/>
+  </g>
+</svg>
