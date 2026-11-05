@@ -6,7 +6,7 @@
 </head>
 <body>
   <div style="text-align: center; margin-bottom: 20px;">
-    <img src="chihuahua-profile.svg" alt="치와와 프로필 사진" width="120" height="120" style="border-radius: 50%;" />
+    <img src="chihuahua-profile.svg" alt="치와와 블랙탄 프로필 사진" width="120" height="120" style="border-radius: 50%;" />
     <h1>김꽃님</h1>
     <p>클라우드 인프라와 AI 백엔드를 다루는 개발자 지망생입니다.</p>
   </div>
